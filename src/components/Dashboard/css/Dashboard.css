@@ -1,0 +1,35 @@
+.dashboardLandingContainer{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.dashboardLandingColumn{
+
+padding: 15px;
+}
+.dashboardLandingImages{
+    width: 250px;
+    height: 250px;
+}
+.dashboardLandingIcons{
+    font-size: 45px;
+}
+.dashboardLandingBtn{
+    color: white;
+    border: 1px solid white;
+}
+.dashboardLandingBtn:hover{
+    color: black;
+    background-color: white;
+}
+.loader{
+    margin-top: 200px;
+}
+.lastRow{
+    margin-bottom: 80px;
+}
+@media only screen and (max-width: 1200px) {
+    .dashboardLandingImages{
+        width: 150px;
+        height: 150px;
+    }
+  }

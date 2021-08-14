@@ -1,0 +1,19 @@
+.statsEditFormContainer{
+    margin-top: 300px;
+    margin-bottom: 80px;
+}
+.newWeightBtn{
+    color: white;
+    background-color: crimson;
+}
+.newWeightBtn:hover{
+    color: crimson;
+    background-color: white;
+}
+@media only screen and (max-width: 998px) {
+    
+    .statsEditFormContainer{
+        margin-top: 300px;
+       
+    }
+  }

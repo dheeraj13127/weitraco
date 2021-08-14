@@ -1,0 +1,47 @@
+.bmiContainer{
+    margin-top: 180px;
+    margin-bottom: 80px;
+}
+.bmiImg{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+.bmiUnit{
+    background-color: crimson;
+    color: white;
+}
+.bmiForm{
+    border: 2px solid white;
+    margin-top: 35px;
+}
+.bmiBtn{
+    color: white;
+    background-color: crimson;
+}
+.bmiBtn:hover{
+    color: crimson;
+    background-color: white;
+}
+.bmiTotalBtn{
+    color: white;
+    border: 1px solid white;
+}
+.bmiTotalBtn:hover{
+    color: white;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+@media only screen and (max-width: 998px) {
+    .bmiImg{
+        width: 250px;
+        height: 250px;
+    }
+    .bmiContainer{
+        margin-top: 100px;
+       
+    }
+  }

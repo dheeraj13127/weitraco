@@ -1,0 +1,40 @@
+.landingSubComponentImg1{
+    width: 400px;
+    height: 400px;
+}
+.landingSubComponentContainer{
+    margin-top: 80px;
+}
+.landingSubComponentTypography{
+    font-size: 20px;
+    color: gray;
+    margin-top: 30px;
+}
+
+.signInBox{
+padding: 20px;
+background-color: black;
+
+}
+.signInBtn{
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 25px;
+}
+.signInBtn:hover{
+    color: black;
+    background-color: white;
+}
+.googleIcon{
+    font-size: 20px;
+ 
+}
+.arrowIcon{
+    font-size: 30px;
+}
+.landingSubRow{
+    margin-bottom: 50px;
+}

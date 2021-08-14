@@ -1,0 +1,62 @@
+.landingNavbar {
+  padding: 5px 10px;
+}
+.brandLogo{
+  color: crimson;
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link:hover{
+  color: crimson;
+}
+.navLinkIcon{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.btnLandingNavbar{
+    color: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+.btnLandingNavbar1{
+  color: white;
+  display: flex;
+  align-items: center;
+  border: 1px solid white;
+  margin-left: 10px;
+  border-radius: 25px;
+}
+
+.btnLandingNavbar:hover{
+    color: black;
+    background-color: white;
+}
+.btnLandingNavbar1:hover{
+  color: black;
+  background-color: white;
+}
+.landingSubComponentHeader{
+    color: crimson;
+}
+.profilePhoto{
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+.profileBtn{
+  color: white;
+  border: 1px solid white;
+  border-radius: 25px;
+}
+.profileName{
+  font-size: 13px;
+}
+.profileBtn:hover{
+  color: black;
+  background-color: white;
+}

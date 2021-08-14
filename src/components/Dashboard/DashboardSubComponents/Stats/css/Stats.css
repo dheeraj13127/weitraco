@@ -1,0 +1,38 @@
+.statsContainer{
+    margin-top: 180px;
+    margin-bottom: 80px;
+}
+.statsUnit{
+    background-color: crimson;
+    margin-left: 10px;
+}
+.loaders{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.editBtn{
+    background-color: crimson;
+    color: white;
+}
+.editBtn:hover{
+    color: crimson;
+    background-color: white;
+}
+.deleteBtn{
+    background-color: crimson;
+    color: white;
+    margin-left: 30px;
+}
+.deleteBtn:hover{
+    color: crimson;
+    background-color: white;
+}
+@media only screen and (max-width: 998px) {
+    
+    .statsContainer{
+        margin-top: 100px;
+       
+    }
+  }
