@@ -16,10 +16,10 @@ const history=useHistory()
   const weightRef = firestore.collection(
     `users/${auth.currentUser && auth.currentUser.uid}/weights`
   );
-  const [weights] = useCollectionData(weightRef.orderBy("createdAt"), {
+  const [weights] = useCollectionData(weightRef.orderBy("createdAt","desc"), {
     idField: "id",
   });
-  console.log(weights);
+
   const setWeight=(id)=>{
     history.push(`/dashboard/stats/${id}`)
   }

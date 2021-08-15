@@ -24,13 +24,18 @@ function NewWeight() {
   };
   const onFormSubmit = (e) => {
     e.preventDefault();
-
-    weightRef.add({
-      weight: weight,
-      createdAt: firebase.firestore.FieldValue.serverTimestamp(),
-    });
-    NotificationManager.success("Weight Added", "", 2000);
-    setWeight("");
+    if(weight===""){
+      NotificationManager.error("Please enter a weight", '', 2000)
+    }
+    else{
+      weightRef.add({
+        weight: weight,
+        createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+      });
+      NotificationManager.success("Weight Added", "", 2000);
+      setWeight("");
+    }
+    
   };
 
 
@@ -52,6 +57,7 @@ function NewWeight() {
                   value={weight}
                   onChange={onWeightChange}
                   aria-describedby="addon-wrapping"
+                  
                 />
                 <span className="input-group-text newWeightUnit">kg</span>
               </div>
